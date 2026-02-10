@@ -116,7 +116,7 @@ canvas{
   <div class="mensaje">
     <p class="titulo">Para Ricardo quien se robó mi corazón un día 14</p>
     <p>
-      Feliz San Valentín a mi hombrecito, el primero de muchos juntos,
+      Feliz San Valentín a mi hombrecito, el primero de muchos,
       que aunque no estemos juntos hoy, siempre nos llevamos en el corazón.
     </p>
     <p class="final">💕 Te quiero muchísimo y te adoro demasiado 💕</p>
@@ -176,7 +176,7 @@ function dibujarCorazon(){
 
   for(let i=0;i<3500;i++){
     const t=Math.random()*Math.PI*2;
-    const r=Math.random(); // CLAVE: relleno completo
+    const r=Math.random(); // CLAVE: relleno entero
     const x=16*Math.pow(Math.sin(t),3);
     const y=-(13*Math.cos(t)-5*Math.cos(2*t)-2*Math.cos(3*t)-Math.cos(4*t));
     const px=c.width/2+x*escala*r;
